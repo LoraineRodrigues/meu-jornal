@@ -1,6 +1,7 @@
-import {Component} from '@angular/core';
-Component({
-    selector: './topo.component.html'
+import { Component } from '@angular/core';
+@Component({
+    selector: 'app-topo',
+    templateUrl: './topo.component.html'
 })
 export class TopoComponent{
 
